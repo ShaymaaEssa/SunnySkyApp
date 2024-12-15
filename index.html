@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunnySky</title>
+    <link rel="icon" href="images/sunny_2204335.png">
+
+    <!-- google-fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+</head>
+<body>
+    <!-- navbar-start  -->
+    <nav class="mynav navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center column-gap-1" href="#">
+            <img src="images/sunny_2204335.png" alt="sunnysky logo"> 
+            <div class="brand-text d-flex flex-column">
+                <span>SunnySky</span>
+                <small>Your Daily Weather, Bright and Clear</small>
+            </div>
+            
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 column-gap-3">
+              <li class="nav-item">
+                <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">News</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Live Cameras</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Photos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- navbar-end  -->
+
+    <section class="hero ">
+        <div class="overlay w-100 h-100">
+            <div class="container py-3 py-5">
+                <div class="form mt-5 ">
+                    <form action="" class="search-form d-flex position-relative">
+                        <input class="search-input form-control py-4 px-4 rounded rounded-pill" type="text" placeholder="Find your location..." aria-label="default input example">
+                        <button class="search-btn btn btn-outline-primary position-absolute rounded-pill py-3 px-5"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="inner">
+                            <div class="card text-light ">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="day text-start">WednesDay</span>
+                                    <span class="date text-end">11December</span>
+                                </div>
+                                <div class="card-body py-5 d-flex flex-column row-gap-4">
+                                  <div class="card-title d-flex justify-content-between">
+                                    <span class="place">Cairo</span> 
+                                  </div>
+                                     
+                                  <div class="weather-desc card-text d-flex align-items-center justify-content-between">
+                                    <div class="weather-img">
+                                        <img  height="100px" width="100px" alt="weather icon">
+                                    </div>
+                                    <div class="weather-text text-center ">
+                                        <p class="h1 m-0"><span class="temp">18.2</span> &deg;C</p>
+                                        <small class="condition-text text-center">Cloudy rain</small>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="weather-specs d-flex column-gap-3 justify-content-around">
+                                    <div class="item text-center ">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-droplet"></i>                                        </div>
+                                        <span class="hum">90%</span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-wind"></i>
+                                        </div>
+                                        <span>18km/h</span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-sun"></i>                                        </div>
+                                        <span>3</span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-compass"></i>                                        </div>
+                                        <span>East</span>
+                                    </div>
+                                </div>
+
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 py-5 py-lg-0">
+                        <div class="inner">
+                            <div class="card text-light ">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="day text-start"></span>
+                                    <span class="date text-end"></span>
+                                </div>
+                                <div class="card-body py-5 d-flex flex-column row-gap-4">
+                                  <div class="card-title d-flex justify-content-between">
+                                    <span class="place"></span> 
+                                  </div>
+                                     
+                                  <div class="weather-desc card-text d-flex align-items-center justify-content-between">
+                                    <div class="weather-img">
+                                        <img  height="100px" width="100px" alt="weather icon">
+                                    </div>
+                                    <div class="weather-text text-center ">
+                                        <p class="h1 m-0"><span class="temp"></span></p>
+                                        <p class="h6 m-0"><span class="temp-min"></span> </p>
+                                        <small class="condition-text text-center"></small>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="weather-specs d-flex column-gap-3 justify-content-around">
+                                    <div class="item text-center ">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-droplet"></i>                                        </div>
+                                        <span class="hum"></span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-wind"></i>
+                                        </div>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-sun"></i>                                        </div>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-compass"></i>                                        </div>
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="inner">
+                            <div class="card text-light ">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <span class="day text-start"></span>
+                                    <span class="date text-end"></span>
+                                </div>
+                                <div class="card-body py-5 d-flex flex-column row-gap-4">
+                                  <div class="card-title d-flex justify-content-between">
+                                    <span class="place"></span> 
+                                  </div>
+                                     
+                                  <div class="weather-desc card-text d-flex align-items-center justify-content-between">
+                                    <div class="weather-img">
+                                        <img  height="100px" width="100px" alt="weather icon">
+                                    </div>
+                                    <div class="weather-text text-center ">
+                                        <p class="h1 m-0"><span class="temp"></span></p>
+                                        <p class="h6 m-0"><span class="temp-min"></span></p>
+                                        <small class="condition-text text-center"></small>
+                                    </div>
+                                    
+                                  </div>
+                                  <div class="weather-specs d-flex column-gap-3 justify-content-around">
+                                    <div class="item text-center ">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-droplet"></i>                                        </div>
+                                        <span class="hum"></span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-solid fa-wind"></i>
+                                        </div>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-sun"></i>                                        </div>
+                                        <span></span>
+                                    </div>
+
+                                    <div class="item text-center">
+                                        <div class="icon">
+                                            <i class="fa-regular fa-compass"></i>                                        </div>
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading d-none align-items-center justify-content-center">
+            <span class="loader"></span>
+    
+        </div>
+    </section>
+
+
+    <footer class="text-light py-5">
+        <div class="container">
+            <div class="footer1 pb-3">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="item">
+                            <p class="h1 text-center">SunnySky</p>
+                            <p class="text-center">Your Daily Weather, Bright and Clear</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 py-5 py-lg-0">
+                        <div class="item">
+                            <p class="h5 text-center">Follow Us</p>
+                            <p class="text-center">Stay updated with the latest news, tips, and stories. Follow us on social media!</p>
+                            <div class="social-icons d-flex column-gap-3 justify-content-center">
+                                <div class="icon d-flex align-items-center justify-content-center rounded ">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </div>
+
+                                <div class="icon d-flex align-items-center justify-content-center rounded">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </div>
+
+                                <div class="icon d-flex align-items-center justify-content-center rounded">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </div>
+
+                                <div class="icon d-flex align-items-center justify-content-center rounded">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 ">
+                        <div class="item">
+                            <p class="h5 text-center">Our Newsletter</p>
+                            <p class="text-center">Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                            <div class="form">
+                                <form action="" class="d-flex position-relative">
+                                    <input class="form-control py-2 px-2 rounded rounded-pill" type="text" placeholder="Enter your e-mail to subscribe..." aria-label="default input example">
+                                    <button class="subscribe-btn btn btn-outline-primary position-absolute rounded-pill py-1 px-3">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="footer2 text-center py-4 mt-3">
+                <p class="mb-1">© Copyright <strong>SunnySky</strong> weather app All Rights Reserved</p>
+                <p class="mb-0">Designed by <a>ShaymaaEssa</a></p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
